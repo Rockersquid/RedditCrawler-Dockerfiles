@@ -1,0 +1,11 @@
+mongo:
+  build: ./Mongo
+  ports:
+   - "27017:27017"
+server:
+  build: ./Server
+  ports:
+   - "5000:5000"
+crawler:
+  build: ./crawler
+ 
